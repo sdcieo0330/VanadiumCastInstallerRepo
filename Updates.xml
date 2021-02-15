@@ -3,25 +3,6 @@
  <ApplicationVersion>1.0.0</ApplicationVersion>
  <Checksum>true</Checksum>
  <PackageUpdate>
-  <Name>de.dellacontrada.silas.VanadiumCast.app</Name>
-  <DisplayName>VanadiumCast-Application</DisplayName>
-  <Description>The VanadiumCast GUI Application for End Users</Description>
-  <Description xml:lang="de_de">Die Grafische Anwendung für Endbenutzer der VanadiumCast-Plattform</Description>
-  <Version>0.1beta</Version>
-  <ReleaseDate>2021-01-22</ReleaseDate>
-  <Dependencies>de.dellacontrada.silas.VanadiumCast.core</Dependencies>
-  <SortingPriority>100</SortingPriority>
-  <Default>true</Default>
-  <ForcedInstallation>false</ForcedInstallation>
-  <Essential>false</Essential>
-  <UpdateFile OS="Any" UncompressedSize="162942280" CompressedSize="36085641"/>
-  <DownloadableArchives>libexec.7z,plugins.7z,qml.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License name="License Agreement" file="license.txt"/>
-  </Licenses>
-  <SHA1>32e26f52c7841885e155048a7fcb13de7a10f152</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>de.dellacontrada.silas.VanadiumCast.core</Name>
   <DisplayName>VanadiumCast-Core</DisplayName>
   <Description>The VanadiumCast core libraries</Description>
@@ -33,11 +14,30 @@
   <ForcedInstallation>false</ForcedInstallation>
   <Essential>true</Essential>
   <Script>setupInstallPath.qs</Script>
-  <UpdateFile OS="Any" UncompressedSize="172595928" CompressedSize="42083612"/>
+  <UpdateFile UncompressedSize="172595928" CompressedSize="42083612" OS="Any"/>
   <DownloadableArchives>libexec.7z,plugins.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License name="License Agreement" file="license.txt"/>
   </Licenses>
   <SHA1>578150cccf01e35cf8244c08edfcc5a01196fd66</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>de.dellacontrada.silas.VanadiumCast.app</Name>
+  <DisplayName>VanadiumCast-Application</DisplayName>
+  <Description>The VanadiumCast GUI Application for End Users</Description>
+  <Description xml:lang="de_de">Die Grafische Anwendung für Endbenutzer der VanadiumCast-Plattform</Description>
+  <Version>0.1beta</Version>
+  <ReleaseDate>2021-01-22</ReleaseDate>
+  <Dependencies>de.dellacontrada.silas.VanadiumCast.core</Dependencies>
+  <SortingPriority>100</SortingPriority>
+  <Default>true</Default>
+  <ForcedInstallation>false</ForcedInstallation>
+  <Essential>false</Essential>
+  <UpdateFile UncompressedSize="162942280" CompressedSize="36085640" OS="Any"/>
+  <DownloadableArchives>libexec.7z,plugins.7z,qml.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License name="License Agreement" file="license.txt"/>
+  </Licenses>
+  <SHA1>7bfb7e1f6ad850c9b6bba50572f165f9e0220212</SHA1>
  </PackageUpdate>
 </Updates>
