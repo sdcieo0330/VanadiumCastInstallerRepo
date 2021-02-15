@@ -14,12 +14,12 @@
   <Default>true</Default>
   <ForcedInstallation>false</ForcedInstallation>
   <Essential>false</Essential>
-  <UpdateFile CompressedSize="36157635" UncompressedSize="163254657" OS="Any"/>
+  <UpdateFile CompressedSize="36085640" UncompressedSize="162942280" OS="Any"/>
   <DownloadableArchives>libexec.7z,plugins.7z,qml.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License name="License Agreement" file="license.txt"/>
+   <License file="license.txt" name="License Agreement"/>
   </Licenses>
-  <SHA1>020a8a67233d2845a438af77244b8de142855609</SHA1>
+  <SHA1>b1070bc6b982aedecd297f07c28e726585efa3b5</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>de.dellacontrada.silas.VanadiumCast.core</Name>
@@ -33,11 +33,11 @@
   <ForcedInstallation>false</ForcedInstallation>
   <Essential>true</Essential>
   <Script>setupInstallPath.qs</Script>
-  <UpdateFile CompressedSize="42085441" UncompressedSize="172595928" OS="Any"/>
+  <UpdateFile CompressedSize="42085380" UncompressedSize="172595928" OS="Any"/>
   <DownloadableArchives>libexec.7z,plugins.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License name="License Agreement" file="license.txt"/>
+   <License file="license.txt" name="License Agreement"/>
   </Licenses>
-  <SHA1>6346cfd8a4b26b93db3eab62a1aad65c74633b63</SHA1>
+  <SHA1>3982d1e93ed54b6431d3fe86795c151abf014da2</SHA1>
  </PackageUpdate>
 </Updates>
