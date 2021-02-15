@@ -3,25 +3,6 @@
  <ApplicationVersion>1.0.0</ApplicationVersion>
  <Checksum>true</Checksum>
  <PackageUpdate>
-  <Name>de.dellacontrada.silas.VanadiumCast.core</Name>
-  <DisplayName>VanadiumCast-Core</DisplayName>
-  <Description>The VanadiumCast core libraries</Description>
-  <Description xml:lang="de_de">Die Kernbibliothek der VanadiumCast-Plattform</Description>
-  <Version>0.1beta</Version>
-  <ReleaseDate>2021-01-22</ReleaseDate>
-  <SortingPriority>101</SortingPriority>
-  <Default>true</Default>
-  <ForcedInstallation>false</ForcedInstallation>
-  <Essential>true</Essential>
-  <Script>setupInstallPath.qs</Script>
-  <UpdateFile UncompressedSize="172595928" CompressedSize="42083612" OS="Any"/>
-  <DownloadableArchives>libexec.7z,plugins.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License name="License Agreement" file="license.txt"/>
-  </Licenses>
-  <SHA1>578150cccf01e35cf8244c08edfcc5a01196fd66</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>de.dellacontrada.silas.VanadiumCast.app</Name>
   <DisplayName>VanadiumCast-Application</DisplayName>
   <Description>The VanadiumCast GUI Application for End Users</Description>
@@ -33,11 +14,30 @@
   <Default>true</Default>
   <ForcedInstallation>false</ForcedInstallation>
   <Essential>false</Essential>
-  <UpdateFile UncompressedSize="162942280" CompressedSize="36085640" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="163254657" CompressedSize="36157632"/>
   <DownloadableArchives>libexec.7z,plugins.7z,qml.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License name="License Agreement" file="license.txt"/>
   </Licenses>
-  <SHA1>7bfb7e1f6ad850c9b6bba50572f165f9e0220212</SHA1>
+  <SHA1>310e46f10cfe05614fbfdd3d9adf1cbb390f483c</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>de.dellacontrada.silas.VanadiumCast.core</Name>
+  <DisplayName>VanadiumCast-Core</DisplayName>
+  <Description>The VanadiumCast core libraries</Description>
+  <Description xml:lang="de_de">Die Kernbibliothek der VanadiumCast-Plattform</Description>
+  <Version>0.1beta</Version>
+  <ReleaseDate>2021-01-22</ReleaseDate>
+  <SortingPriority>101</SortingPriority>
+  <Default>true</Default>
+  <ForcedInstallation>false</ForcedInstallation>
+  <Essential>true</Essential>
+  <Script>setupInstallPath.qs</Script>
+  <UpdateFile OS="Any" UncompressedSize="172595928" CompressedSize="42083612"/>
+  <DownloadableArchives>libexec.7z,plugins.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License name="License Agreement" file="license.txt"/>
+  </Licenses>
+  <SHA1>2ec8b92488f136e4c15d62822871d01718a12970</SHA1>
  </PackageUpdate>
 </Updates>
