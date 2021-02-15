@@ -1,0 +1,46 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>de.dellacontrada.silas.VanadiumCast.app</Name>
+  <DisplayName>VanadiumCast-Application</DisplayName>
+  <Description>The VanadiumCast GUI Application for End Users</Description>
+  <Description xml:lang="de_de">Die Grafische Anwendung für Endbenutzer der VanadiumCast-Plattform</Description>
+  <Version>0.4-dev</Version>
+  <ReleaseDate>2021-02-15</ReleaseDate>
+  <Dependencies>de.dellacontrada.silas.VanadiumCast.core</Dependencies>
+  <Script>startmenu.qs</Script>
+  <SortingPriority>100</SortingPriority>
+  <Default>true</Default>
+  <ForcedInstallation>false</ForcedInstallation>
+  <Essential>false</Essential>
+  <UpdateFile UncompressedSize="55281156" CompressedSize="9862128" OS="Any"/>
+  <DownloadableArchives>qml.7z,styles.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License name="License Agreement" file="license.txt"/>
+  </Licenses>
+  <SHA1>15a9b9c1ebf68f8d818c738142b7755a5c2b4e98</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>de.dellacontrada.silas.VanadiumCast.core</Name>
+  <DisplayName>VanadiumCast-Core</DisplayName>
+  <Description>The VanadiumCast core libraries</Description>
+  <Description xml:lang="de_de">Die Kernbibliothek der VanadiumCast-Plattform</Description>
+  <Version>0.4-dev</Version>
+  <ReleaseDate>2021-02-15</ReleaseDate>
+  <SortingPriority>101</SortingPriority>
+  <Default>true</Default>
+  <ForcedInstallation>false</ForcedInstallation>
+  <Essential>true</Essential>
+  <Script>setupInstallPath.qs</Script>
+  <UpdateFile UncompressedSize="63907872" CompressedSize="14445811" OS="Any"/>
+  <DownloadableArchives>audio.7z,bearer.7z,imageformats.7z,mediaservice.7z,platforms.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License name="License Agreement" file="license.txt"/>
+  </Licenses>
+  <SHA1>c46de47299f2989294623bbb640da481a8c103e6</SHA1>
+ </PackageUpdate>
+ <SHA1>2e6a63219ca3f16c81356e53321d9151e431c7fc</SHA1>
+ <MetadataName>2021-02-15-1408_meta.7z</MetadataName>
+</Updates>
