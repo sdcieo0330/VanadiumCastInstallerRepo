@@ -7,37 +7,37 @@
   <DisplayName>VanadiumCast-Application</DisplayName>
   <Description>The VanadiumCast GUI Application for End Users</Description>
   <Description xml:lang="de_de">Die Grafische Anwendung für Endbenutzer der VanadiumCast-Plattform</Description>
-  <Version>0.1beta</Version>
-  <ReleaseDate>2021-01-22</ReleaseDate>
+  <Version>0.3-dev</Version>
+  <ReleaseDate>2021-02-15</ReleaseDate>
   <Dependencies>de.dellacontrada.silas.VanadiumCast.core</Dependencies>
   <SortingPriority>100</SortingPriority>
   <Default>true</Default>
   <ForcedInstallation>false</ForcedInstallation>
   <Essential>false</Essential>
-  <UpdateFile OS="Any" UncompressedSize="163254657" CompressedSize="36157632"/>
+  <UpdateFile UncompressedSize="163254657" CompressedSize="36157632" OS="Any"/>
   <DownloadableArchives>libexec.7z,plugins.7z,qml.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License name="License Agreement" file="license.txt"/>
   </Licenses>
-  <SHA1>310e46f10cfe05614fbfdd3d9adf1cbb390f483c</SHA1>
+  <SHA1>c3ca93a1f268583cfa61e2b05bf8c43beb761787</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>de.dellacontrada.silas.VanadiumCast.core</Name>
   <DisplayName>VanadiumCast-Core</DisplayName>
   <Description>The VanadiumCast core libraries</Description>
   <Description xml:lang="de_de">Die Kernbibliothek der VanadiumCast-Plattform</Description>
-  <Version>0.1beta</Version>
-  <ReleaseDate>2021-01-22</ReleaseDate>
+  <Version>0.3-dev</Version>
+  <ReleaseDate>2021-02-15</ReleaseDate>
   <SortingPriority>101</SortingPriority>
   <Default>true</Default>
   <ForcedInstallation>false</ForcedInstallation>
   <Essential>true</Essential>
   <Script>setupInstallPath.qs</Script>
-  <UpdateFile OS="Any" UncompressedSize="172595928" CompressedSize="42083612"/>
+  <UpdateFile UncompressedSize="172595928" CompressedSize="42083612" OS="Any"/>
   <DownloadableArchives>libexec.7z,plugins.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License name="License Agreement" file="license.txt"/>
   </Licenses>
-  <SHA1>2ec8b92488f136e4c15d62822871d01718a12970</SHA1>
+  <SHA1>b45a9d909d9d673c858f8753b89b9eb94803f7c3</SHA1>
  </PackageUpdate>
 </Updates>
